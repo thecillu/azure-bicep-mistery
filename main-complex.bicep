@@ -12,7 +12,7 @@ resource virtualNetworkSubnet 'Microsoft.Network/virtualNetworks/subnets@2021-02
 }
 
 resource myComplexStorageAccount 'Microsoft.Storage/storageAccounts@2021-06-01' = {
-  name: 'mysimplestorageaccount'
+  name: 'mycomplexstorageaccount'
   location: resourceGroup().location
   kind: 'StorageV2'
   sku: {
